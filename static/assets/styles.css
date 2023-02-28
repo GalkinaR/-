@@ -1,0 +1,180 @@
+.zodiac {
+    display: flex;
+    flex-direction: column;
+}
+span, a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+a {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html {
+    background-image: url(https://placepic.ru/wp-content/uploads/2018/10/elitefon.ru-23364.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ;
+}
+.zodiac {
+    background-color: rgba(97, 118, 183);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+header {
+    background-color: rgba(97, 118, 183);
+    margin-right: 450px;    
+    margin-left: 450px;
+    border-radius: 30px;
+    color: rgb(223, 228, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aries {
+    background-color: rgba(255, 246, 150, 0.3);
+    border-radius: 65px;
+}
+.taurus {
+    background-color: rgba(255, 246, 140, 0.3);
+    border-radius: 65px;
+}
+.gemini {
+    background-color: rgb(255, 246, 130, 0.3);
+    border-radius: 65px;
+}
+.cancer {
+    background-color: rgb(255, 246, 120, 0.3);
+    border-radius: 65px;
+}
+.leo {
+    background-color: rgb(255, 246, 110, 0.3);
+    border-radius: 65px;
+}
+.virgo {
+    background-color: rgb(255, 246, 100, 0.3);
+    border-radius: 65px;
+}
+.libra {
+    background-color: rgb(255, 246, 90, 0.3);
+    border-radius: 65px;
+}
+.scorpio {
+    background-color: rgb(255, 246, 80, 0.3);
+    border-radius: 65px;
+}
+.sagittarius {
+    background-color: rgb(255, 246, 70, 0.3);
+    border-radius: 65px;
+}
+.capricorn {
+    background-color: rgb(255, 246, 60, 0.3);
+    border-radius: 65px;
+}
+.aquarius {
+    background-color: rgb(255, 246, 50, 0.3);
+    border-radius: 65px;
+}
+.pisces {
+    background-color: rgb(255, 246, 40 , 0.3);
+    border-radius: 65px;
+    margin-bottom: 5px;
+}
+.ogon {
+    color: rgb(217, 62, 62);
+    font-weight: bold;
+}
+.voda {
+    color: rgb(16, 69, 121);
+    font-weight: bold;
+}
+.vosduh {
+    color:rgb(10, 184, 211);
+    font-weight: bold;
+}
+.zemlya {
+    color: rgb(24, 92, 24);
+    font-weight: bold;
+}
+.oven {
+    font-weight: bold
+}
+.telets {
+    font-weight: bold
+}
+.two {
+    font-weight: bold
+}
+.rak {
+    font-weight: bold
+}
+.lev {
+    font-weight: bold
+}
+.deva {
+    font-weight: bold
+}
+.vesi {
+    font-weight: bold
+}
+.skorp {
+    font-weight: bold
+}
+.strelec {
+    font-weight: bold
+}
+.koza {
+    font-weight: bold
+}
+.vodol {
+    font-weight: bold
+}
+.ribi {
+    font-weight: bold
+}
+
+
+.xarki {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(223, 228, 255);
+}
+.asd {
+    background-color: rgb(97, 118, 183);
+    border-radius: 15px;
+}
+.txt {
+    margin: 20px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.temp{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(223, 228, 255);
+}
+
+.storoni {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(223, 228, 255);
+}
+.love {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(223, 228, 255);
+}
+
+
