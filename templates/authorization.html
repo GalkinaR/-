@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/assets/styles.css" />
+    <title>Авторизация</title>
+    <header>
+      <center>
+        <h1>Станьте звездой нашего сайта</h1>
+      </center>
+    </header>
+  </head>
+
+  <body>
+    <div class="zodiac">
+      <div class="form">
+        <form method="POST">
+          <div><label>Ваше имя: <input type="text" name="name"></label></div>
+          <div>Ваш знак зодиака: <select name="znak" method="POST" action="/">
+            {% for z in zz %}
+            <option value="{{z}}" SELECTED>{{z}}</option>"
+            {% endfor %}
+          </div>
+            <input type="submit" value="Enter">
+      </form>
+      <div class="table">
+        <ul>
+          {% for item in data %}
+            <li class="q12">{{item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

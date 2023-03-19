@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+
 
 app = Flask(__name__)
 
@@ -54,5 +55,19 @@ def aquarius():
 def pisces():
     return render_template("pisces.html")
 
+@app.route("/authorization", methods=['GET', 'POST'])
+def authorization():
+    zz = ['Овен', 'Весы', 'Дева', 'Водолей', 'Стрелец', 'Скорпион', 'Козерог', 'Телец', 'Близнецы', 'Рак', 'Рыбы',
+        'Лев']
+    data = [item for item in reversed(list(open("info_users.txt", encoding='utf-8')))]
+    if request.method == 'POST':
+        Name = request.form.get("name")
+        znak = request.form.get("znak")
+        with open('info_users.txt', 'a', encoding='utf-8') as f:
+            f.write(f'{Name} {znak}\n')
+    return render_template('authorization.html', zz=zz, data=data)
+
+
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
+

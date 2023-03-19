@@ -176,5 +176,35 @@ header {
     font-size: 20px;
     color: rgb(223, 228, 255);
 }
-
+.botautho {
+    background-color: rgba(97, 118, 183);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.txtautho {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 10px;
+    color: lightgray;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.friends{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(223, 228, 255);
+}
+.form{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.q12 {
+    list-style-type: none;
+}
 
